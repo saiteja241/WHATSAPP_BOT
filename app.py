@@ -11,7 +11,8 @@ VERIFY_TOKEN = os.getenv("VERIFY_TOKEN")
 WHATSAPP_TOKEN = os.getenv("WHATSAPP_TOKEN")
 PHONE_NUMBER_ID = os.getenv("PHONE_NUMBER_ID")
 APP_WEBHOOK_SECRET = os.getenv("APP_WEBHOOK_SECRET")
-PORT = int(os.getenv("PORT", 5000))
+PORT = int(os.environ.get("PORT", 5000))
+    
 
 app = Flask(__name__)
 
@@ -102,4 +103,5 @@ def sheet_webhook():
         return jsonify({"status": "error", "message": str(e)}), 500
 
 if __name__ == "__main__":
-    app.run(port=PORT, debug=True)
+    PORT = int(os.environ.get("PORT", 5000))
+    app.run(host="0.0.0.0", port=PORT, debug=True)
