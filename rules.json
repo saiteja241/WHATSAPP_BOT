@@ -1,0 +1,17 @@
+{
+
+  "hi": "👋 Welcome to QuickPress Laundry!\n\nChoose a service:\n1. Iron Only\n2. Wash & Iron\n3. Pickup & Delivery\n\nType 1, 2, 3 or 'order' to continue.",
+
+  "1": "🧥 Iron Only Prices:\n- Shirt: ₹10\n- Pants: ₹15\n- Saree: ₹25\n\nType 'order' to confirm.",
+  
+  "2": "👕 Wash & Iron Prices:\n- Shirt: ₹25\n- Pants: ₹35\n- Saree: ₹50\n\nType 'order' to confirm.",
+  
+  "3": "🚚 Pickup & Delivery available!\nService charge: ₹20 per order.\n\nType 'order' to confirm.",
+
+  "order": "Please place your order here: https://docs.google.com/forms/d/e/1FAIpQLSfsTMhYcXhqOUlZjCQM-ryRlD1Or2B2BtQ-92zAspoE3PKfBQ/viewform?usp=header\n\nThank you for choosing QuickPress Laundry! 😊",
+
+  "help": "Type 'hi' to see the menu again."
+}
+
+
+
